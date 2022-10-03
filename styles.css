@@ -1,0 +1,55 @@
+.container{
+    width: 960px;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 70% 30%;
+}
+    header{ 
+    display: grid;
+    background: pink;
+    text-align: center;
+    padding:50px;
+    grid-column: span 6;
+
+}
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    
+    }
+    .centre{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        background: #5A67D8;
+    }
+ img{
+    width: 210px; 
+    height: 260px;
+    margin: 10px 50px;
+    float: top;
+    border-radius: 50%;
+}
+.img1{
+    float:left;
+    padding: 0 20px 20px 0;
+    margin: 0 10px 10px 0;
+    border-radius:4%;
+}
+
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:32px;
+    text-align: left;
+    color: #48bb78;
+    
+}
+.post2pic{
+    float: right;
+    margin: 0 10px 10px 0;
+    border-radius:5px;;
+}
