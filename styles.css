@@ -5,3 +5,22 @@
     object-fit: cover;
     border: 3px solid #38B2AC;
 }
+
+article{
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: bottom 20px; 
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+article h2{
+    font: 20px;
+    color: #5A67D8;
+}
+
+article p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
